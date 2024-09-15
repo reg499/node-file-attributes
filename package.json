@@ -1,0 +1,46 @@
+{
+  "name": "node-file-attributes",
+  "version": "0.0.2",
+  "description": "A Node.js native addon for managing file attributes on Windows, such as hidden, system, read-only, archive, compression, and indexing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "build": "node-gyp configure build"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.15.0"
+  },
+  "devDependencies": {
+    "node-addon-api": "^5.0.0",
+    "node-gyp": "^9.0.0"
+  },
+  "keywords": [
+    "file",
+    "attributes",
+    "hidden",
+    "system",
+    "readonly",
+    "archive",
+    "compression",
+    "indexing",
+    "windows",
+    "node-gyp",
+    "native-addon",
+    "windows-attributes"
+  ],
+  "author": "reg499",
+  "license": "MIT",
+  "gypfile": true,
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reg499/node-file-attributes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reg499/node-file-attributes/issues"
+  },
+  "homepage": "https://github.com/reg499/node-file-attributes"
+}
