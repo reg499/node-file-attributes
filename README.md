@@ -2,6 +2,7 @@
 
 **File Attributes Manager** is a Node.js native addon built with C++ for managing file attributes on Windows. It provides a simple interface to set and query various file attributes like hidden, system, read-only, archive, compression, indexing, and more. This addon leverages Windows APIs to interact with file attributes at the OS level, offering more control and precision than what is typically available in standard Node.js modules.
 
+
 ## Features
 
 - **Set file as hidden or visible** (`hide`, `show`)
